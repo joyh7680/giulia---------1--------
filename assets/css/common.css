@@ -1,0 +1,24 @@
+body { 
+    
+    /* margin: 0;  */
+    min-height: 100%; background-color: #0e1012; 
+
+    /* font-family: 'Roslindale','Mint Grotesk';  */
+    font-family: var( --font-en1);
+
+    color: #f3f6fa; font-size: 16px; line-height: 1.6;
+    /* 폰트웨이트 기본이 400임  */
+     /* font-weight: 400;  */
+     scroll-behavior: smooth;
+ } 
+.blind { position: absolute; overflow: hidden; clip: rect(0,0,0,0); width: 1px; height: 1px; margin-right: -1px; } 
+.link { text-transform: uppercase; height: 32px; padding: 3px 12px 2px; border: 1px solid #fff; border-radius: 24px; background-color: rgba(243,246,250,.01); text-transform: uppercase; display: flex; align-items: center; justify-content: center; transition: .3s cubic-bezier(0.22, 0.61, 0.36, 1);
+    font-family: var( --font-en2);
+     /* font-family: 'Mint Grotesk',sans-serif; */
+      font-size: 11px; line-height: 1; text-align: center; } 
+ .link:hover { background: #3c3b3b; } 
+
+
+ h3 { margin-top: 0; margin-bottom: 16px; 
+    font-family: var( --font-en1);
+    font-size: 98px; line-height: 1; font-weight: 400; text-align: center; } 

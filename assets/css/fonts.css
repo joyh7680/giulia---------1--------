@@ -1,0 +1,31 @@
+
+/* body  */
+@font-face {
+  font-family: 'Roslindale';
+  src: url('../fonts/Roslindale-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+/* tab  */
+@font-face {
+  font-family: 'Mint Grotesk';
+  src: url('../fonts/Mint-Grotesk-Medium.woff2') format('woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Mint Grotesk';
+  src: url('../fonts/Mint-Grotesk-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+/* kr  */
+@font-face {
+  font-family: 'Pretendard';
+  src: url('../fonts/Pretendard-Medium.woff2') format('woff2');
+  font-weight: 500;
+}
+
+
+
+
+  

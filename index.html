@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>랜딩 - giulia</title>
+
+    <link href="./assets/images/common/favicon-32x32-dark.svg" rel="shortcut icon" type="image/x-icon"/>
+    <link href="./assets/images/common/favicon-256x256.svg" rel="apple-touch-icon"/>
+    <!-- css  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- js  -->
+    <script src="./assets/js/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/SplitType.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="inner">
+                <h1 class="logo">
+                    <a href=""> <span class="blind">로고</span>Giulia</a>
+                </h1>
+                <div class="nav-wrap">
+                    <!-- @ 링크 이동하는 걸로 수정하기  -->
+                    <nav class="nav left">
+                        <!-- a 호버시 bg 바뀜  -->
+                        <a href="#intro" class="link">intro</a>
+                        <a href="#about" class="link">about</a>
+                        <a href="#project" class="link">project</a>
+                   </nav>
+                   <nav class="nav right">
+                        <a href="" class="link">notion?</a>
+                        <a href="#email" class="link">email</a>
+                        
+                   </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+
+            <section id="intro" class="sc-intro">
+                <h2 class="blind">main intro</h2>
+                <div class="inner">
+                    <div class="group-cont">
+                        <div class="tit-area">
+                            <h2>
+                                GIULIA GARTNER 
+                                PHOTOGRAPHER & <br>
+                                FILMMAKER
+                            </h2>
+                        </div>
+                        <div class="bg-video" >
+                            <video src="./assets/videos/reel-transcode.mp4" muted autoplay loop></video>
+                        </div>
+                        <!-- <div class="bg-video" >
+                            <video src="./assets/videos/intro.mp4" muted autoplay loop></video>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="sc-about">
+                <h2 class="blind">자기소개</h2>
+                <div class="inner">
+                    <div class="group-column">
+                        <div class="tit-area">
+                            <p class="tit-wrap">
+
+                                    <span class="tit-box">Hi</span>
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/main/txt-img01.jpeg" alt="">
+                                    </div>
+                                    <span class="tit-box">i'm</span> 
+
+                            </p>
+                            <p class="tit-wrap">
+                                    <span class="tit-box">jiwon</span>
+                                    <div class="img-wrap txt-img02">
+                                        <img src="./assets/images/main/txt-img02.jpeg" alt="">
+                                    </div>
+                                    <span class="tit-box">hwang</span>
+                            </p>
+                            <p class="tit-wrap">
+                                    <span class="tit-box">이라고합니다</span>
+                                    <div class="dot-animaiton">
+                                        <span class="dot">.</span>
+                                        <span class="dot">.</span>
+                                        <span class="dot">.</span>
+                                    </div>
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/main/txt-img03.jpg" alt="">
+                                    </div> 
+
+                            </p>
+                        </div>
+
+                        <p class="desc">
+                            Giulia Gartner (<a href="" class="insta-link"> @giuligartner</a> ) is an outdoor, travel, and commercial photographer, filmmaker, and storyteller from the Dolomites in northern Italy. Her work focuses on capturing wild and rugged landscapes with a vivid color palette and dreamy elements. Her love for photography has spilled over into filmmaking which is one of the main creative outlets she pursues today.
+                        </p>
+                        <!-- 경력 기술서 노션 나나링크 참고 -->
+                        <a href="https://www.notion.so/32304acdbef042f09023d94a026ec735" class="btn-career"> <span>my career</span> </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="project" class="sc-project">
+                <h2 class="blind">프로젝트</h2>
+
+                <ul class="project-list">
+
+                    <li class="project-item item01">
+                        <div class="img-area left">
+                            <img src="./assets/images/main/cont01-left.jpg" alt>
+                        </div>
+                        <div class="img-area right">
+                            <img src="./assets/images/main/cont01-right.jpg" alt>
+                        </div>
+
+                        <div class="desc-area">
+                            <p class="period-wrap">
+                                <span>2023.03</span>
+                                <!-- <span class="arrow">
+                                    <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 4L-8.26528e-07 8L-4.76837e-07 -6.99382e-07L16 4Z" fill="currentcolor"></path>
+                                        </svg>
+                                </span> -->
+                                <span>PC</span>
+                            </p>
+                            <div class="tit-wrap">
+                                <h3>Apple Ipad</h3>
+                                <!-- <a href="" class="link">see case study</a> -->
+                                <div class="tag-box">
+                                    <a href="" class="link tag">#PC</a>
+                                    <a href="" class="link tag">#gsap</a>
+                                    <a href="" class="link tag">#jQuery</a>
+                                    <a href="" class="link tag">#renewal</a>
+                                </div>
+                                <p class="desc">Apple Ipad를 테마로 Apple, Awwwards등 래퍼런스 사이트를 참고하여 만든 리뉴얼한 PC적응형 사이트입니다.</p>
+                                <div class="link-box">
+                                    <a href="" class="link site">velog</a>
+                                    <!-- 포트폴리오 링크  -->
+                                    <a href="" class="link site">go project</a>
+                                </div>
+                            </div>
+                            <div class="gradation-wrap"></div>
+                        </div>
+                       
+
+                    </li>
+
+                    <li class="project-item item02">
+                        <div class="img-area left" >
+                            <img src="./assets/images/main/cont01-left.jpg" alt>
+                        </div>
+                        <div class="img-area right">
+                            <img src="./assets/images/main/cont01-right.jpg" alt>
+                        </div>
+
+                        <div class="desc-area">
+                            <p class="period-wrap">
+                                <span>2023.03</span>
+                                <span>mobile</span>
+                            </p>
+                            <div class="tit-wrap">
+                                <h3>memez</h3>
+                                <p class="desc">프로젝트에 대한 간략한 설명</p>
+                                <div class="link-box">
+                                    <a href="" class="link">velog</a>
+                                    <!-- 포트폴리오 링크  -->
+                                    <a href="" class="link">go project</a>
+                                </div>
+                            </div>
+                            <div class="gradation-wrap"></div>
+                        </div>
+                       
+
+                    </li>
+
+                    <li class="project-item item03">
+                        <div class="img-area left">
+                            <img src="./assets/images/main/cont01-left.jpg" alt>
+                        </div>
+                        <div class="img-area right">
+                            <img src="./assets/images/main/cont01-right.jpg" alt>
+                        </div>
+
+                        <div class="desc-area">
+                            <p class="period-wrap">
+                                <span>2023.03</span>
+                                <span>reponsive</span>
+                            </p>
+                            <div class="tit-wrap">
+                                <h3>museum</h3>
+                                <p class="desc">프로젝트에 대한 간략한 설명</p>
+                                <div class="link-box">
+                                    <a href="" class="link">velog</a>
+                                    <!-- 포트폴리오 링크  -->
+                                    <a href="" class="link">go project</a>
+                                </div>
+                            </div>
+                            <div class="gradation-wrap"></div>
+                        </div>
+                       
+
+                    </li>
+
+                 
+
+
+
+
+
+
+                    <!-- <div class="content cont01">
+                        <ul class="sticky-list">
+                            <li class="sticky-item preview left">
+                                <img src="./assets/images/main/cont01-left.jpg" alt="">
+                            </li>
+                            <li class="stikcy-item">
+                                <div class="column-area">
+                                    <p class="period-wrap">
+                                        <span>september 2019</span>
+                                        <span class="arrow">
+                                            <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M16 4L-8.26528e-07 8L-4.76837e-07 -6.99382e-07L16 4Z" fill="currentcolor"></path>
+                                                </svg>
+                                        </span>
+                                        <span>MONGOLIA</span>
+                                    </p>
+                                    <div class="tit-wrap">
+                                        <h3>플젝명</h3>
+                                        <a href="" class="link">see case study</a>
+                                    </div>
+                                    <div class="gradation-wrap"></div>
+                                </div>
+
+                            </li>
+                            <li class="sticky-item preview right">
+                                <img src="./assets/images/main/cont01-right.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div> -->
+
+                    <!-- <div class="content cont02">
+
+                        <ul class="sticky-list">
+                            <li class="sticky-item preview left">
+                                <img src="./assets/images/main/cont02-left.jpg" alt="">
+                            </li>
+                            <li class="stikcy-item">
+                                <div class="column-area">
+                                    <p class="period-wrap">
+                                        <span>JULY 2021</span>
+                                        <span class="arrow">
+                                            <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M16 4L-8.26528e-07 8L-4.76837e-07 -6.99382e-07L16 4Z" fill="currentcolor"></path>
+                                                </svg>
+                                        </span>
+                                        <span>COSTA RICA</span>
+                                    </p>
+                                    <div class="tit-wrap">
+                                        <h3>플젝명</h3>
+                                        <a href="" class="link">see case study</a>
+                                    </div>
+                                    <div class="gradation-wrap"></div>
+                                </div>
+
+                            </li>
+                            <li class="sticky-item preview right">
+                                <img src="./assets/images/main/cont02-right.jpg" alt="">
+                            </li>
+                        </ul>
+
+                    </div> -->
+                </ul>
+          
+            </section>
+
+            <!-- 뺴도됌  -->
+            <!-- 참고 https://choscion.github.io/portfolio/ -->
+
+            <section class="sc-motion">
+                <div class="group-column">
+                    <p class="period-area">
+                        <span>NOVEMBER 2022</span>
+                        <span class="arrow">
+                            <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 4L-8.26528e-07 8L-4.76837e-07 -6.99382e-07L16 4Z" fill="currentcolor"></path>
+                                </svg>
+                        </span>
+                        <span>CORNWALL, SCOTLAND</span>
+                    </p>
+                    <h3 class="tit">Amelia</h3>
+
+       
+                    <div class="images-area">
+                        <a href="" class="main-wrap main">
+                            <img class="img" src="./assets/images/main/motion-visual.jpg" alt="">
+                        </a>
+                        <div class="img-wrap  top">
+                            <img class="img" src="./assets/images/main/motion-img01.jpg" alt="">
+                        </div>
+                        <div class="img-wrap  center">
+                            <img class="img" src="./assets/images/main/motion-img02.jpg" alt="">
+                        </div>
+                        <div class="img-wrap  btm">
+                            <img class="img" src="./assets/images/main/motion-img03.jpg" alt="">
+                        </div>
+
+                        <button type="button" class="btn-play">
+                            <div class="arrow-play">
+                                <svg width="100%" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19 9.76795C20.3333 10.5378 20.3333 12.4623 19 13.2321L3.25 22.3253C1.91667 23.0951 0.250001 22.1329 0.250001 20.5933L0.250002 2.40673C0.250002 0.867131 1.91667 -0.0951185 3.25 0.674682L19 9.76795Z" fill="currentcolor"></path>
+                                </svg>
+
+                            </div>
+                            <div class="arrow-play glow">
+                                <svg width="100%" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19 9.76795C20.3333 10.5378 20.3333 12.4623 19 13.2321L3.25 22.3253C1.91667 23.0951 0.250001 22.1329 0.250001 20.5933L0.250002 2.40673C0.250002 0.867131 1.91667 -0.0951185 3.25 0.674682L19 9.76795Z" fill="currentcolor"></path>
+                                </svg>
+
+
+                            </div>
+
+                        </button>
+             
+                       
+                        
+                
+                    </div>
+                    <a href="" class="link">see case study</a>
+
+                </div>
+            
+     
+
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="inner">
+
+                <div class="group-column">
+                    <!-- email-area 호버하면 텍스트 바뀜  -->
+                    <div class="label-area">
+                        <!-- class name 다 똑같이 선택돼서 다같이 움직이는거 -->
+                        <p class="label touch">get in touch</p>
+                        <p class="label copy">click to copy</p>
+                        <p class="label copied">copied ✨</p>
+                    </div>
+                    <!-- 호버시 마우스, 글씨 작아짐  -->
+            
+                    <div id="email" class="email-area">
+                        <span>photo@giuligartner.com</span>
+                    </div>
+                </div>
+
+                <div class="group-flex">
+                    <p class="copyright-area">
+                        GIULIA GARTNER
+                        <span class="icon-copyright">
+                            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.74503 0C1.59934 0 0 1.58 0 3.75C0 5.92 1.59934 7.5 3.74503 7.5C5.90066 7.5 7.5 5.92 7.5 3.75C7.5 1.58 5.90066 0 3.74503 0ZM3.7649 6.62C2.06622 6.62 0.953642 5.48 0.953642 3.75C0.953642 2.02 2.05629 0.88 3.74503 0.88C5.44371 0.88 6.54636 2.02 6.54636 3.75C6.54636 5.48 5.44371 6.62 3.7649 6.62ZM5.44371 3.15C5.2351 2.35 4.66887 1.83 3.7947 1.83C3.27815 1.83 2.85099 2.01 2.52318 2.36C2.19536 2.71 2.03642 3.17 2.03642 3.73C2.03642 4.81 2.73179 5.54 3.80464 5.54C4.70861 5.54 5.30464 5.04 5.47351 4.15L4.77815 4.01C4.66887 4.6 4.37086 4.9 3.81457 4.9C3.14901 4.9 2.77152 4.43 2.77152 3.71C2.77152 2.95 3.14901 2.47 3.7947 2.47C4.32119 2.47 4.62914 2.78 4.75828 3.35L5.44371 3.15Z" fill="currentcolor"></path>
+                                </svg>
+
+                        </span>
+                        2023
+                    </p>
+                    <div class="sns-area">
+                        <a href="" class="link">youtube</a>
+                        <a href="" class="link">instagram</a>
+                        <a href="" class="link">twitter</a>
+                    </div>
+                    <p class="authorship-area">DESIGN & DEV ✦ thomas bosc</p>
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+   
+    
+</body>
+</html>
